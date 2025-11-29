@@ -1,0 +1,24 @@
+{
+  "name": "endoh-zephyr-vite-v2",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rspack dev",
+    "build": "rspack build",
+    "preview": "rspack preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zephyr-webpack-plugin": "^0.1.2"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.6.5",
+    "@rspack/core": "^1.6.5",
+    "@rspack/plugin-react-refresh": "^1.5.3",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "react-refresh": "^0.18.0",
+    "typescript": "^5.9.3"
+  }
+}
